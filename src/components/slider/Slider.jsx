@@ -30,6 +30,7 @@ const Slider = () => {
         className="mySwiper"
         loopFillGroupWithBlank={true}
         navigation={true}
+        Pagination={true}
         slidesPerView={3}
         spaceBetween={40}
         slidesPerGroup={1}

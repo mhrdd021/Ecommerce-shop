@@ -54,12 +54,12 @@ const Hero = () => {
             className={css.cart2}
             transition={transition}
             initial={{right: "4%"}}
-            whileInView={{right: "2%"}}
+            whileInView={{right: "-10%"}}
             >
                 <RiShoppingBagFill/>
 
                 <div className={css.signup}>
-                    <span>Best Signup offers</span>
+                    <span>همین حالا ثبتنام کنید</span>
                     
                     <div>
                         <BsArrowRight/>
@@ -72,13 +72,13 @@ const Hero = () => {
         {/* Right Side */}
         <div className={css.h_sides}>
             <div className={css.traffic}>
-                <span>1.5ms</span>
-                <span>Monthly Traffic</span>
+                <span>1.5M</span>
+                <span>بازدید ماهانه</span>
             </div>
 
             <div className={css.customers}>
                 <span>100K</span>
-                <span>Happy Customers</span>
+                <span>مشتری جدید</span>
             </div>
         </div>
 

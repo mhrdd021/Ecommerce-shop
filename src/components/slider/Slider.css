@@ -18,10 +18,12 @@
 .s-container .swiper-button-prev{
     left: 6rem;
     color: black;
+    display: flex;
 }
 .s-container .swiper-button-next{
     right: 6rem;
     color: black;
+    display: flex;
 }
 .left-s{
     display: flex;

@@ -26,16 +26,8 @@
     font-weight: 500;
     font-size: 1.3rem;
 }
-.menu>li{
-    padding: 0.2rem 0.4rem;
-    border-radius: 6px;
-    color: white;
-    background: var(--pink);
-    transition: 0.3s;
-}
 .menu>li:hover{
     color: var(--pink);
-    background: white;
     cursor:pointer
 }
 .list{

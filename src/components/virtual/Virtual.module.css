@@ -49,4 +49,13 @@
         padding: 1rem;
         text-align: center;
     }
+    .left:nth-child(1){
+        font-size: 1.4rem !important;
+    }
+    .left:nth-child(2){
+        font-size: 1rem !important;
+    }
+    .left:nth-child(3){
+        font-size: 1rem !important;
+    }
 }
