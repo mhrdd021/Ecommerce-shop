@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 30rem;
+}
+.aboutText{
+    width: 40%;
+    background: rgba(104, 104, 104, 0.19);
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+    text-align: center;
+}
+.container>h1{
+    text-align: center;
+}
+.backGround{
+    width: 100vw;
+    height: 30rem;
+    position: relative;
+    background-image: url('../../assets/FooterBg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:860px) {
+    .aboutText{
+        width: 80%;
+    }
+}

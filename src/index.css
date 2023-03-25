@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Vazir;
+    src: url('./fonts/Vazir.woff2');
+}
+body{
+    font-family: Vazir;
+    margin: 0;
+    background: var(--bg);
+    transition: all 3ms ease;
+    color: var(--black);
+    scroll-behavior: smooth;
+}
