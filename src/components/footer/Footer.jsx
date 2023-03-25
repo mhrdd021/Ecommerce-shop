@@ -10,7 +10,6 @@ import Logo from '../../assets/logo.png'
 import { MdOutlineLocationOn } from 'react-icons/md'
 import { BsTelephone } from 'react-icons/bs'
 import { MdOutlineEmail } from 'react-icons/md'
-import { FaTelegramPlane } from 'react-icons/fa'
 
 
 const Footer = () => {
